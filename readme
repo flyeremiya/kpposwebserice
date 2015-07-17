@@ -1,0 +1,14 @@
+<一>KPPOS目录结构定义
+1.【webservice】：用于构建后台数据操作服务，以及PDA业务逻辑处理;向移动web网站提供相同的共性业务逻辑处理
+，如：登陆验证。可直接发布webservice服务。
+
+2.【webconsole】：定义移动web控制服务类，接收处理servlt请求服务，调用【webservice】进行后端业务逻辑处理，
+并将响应结果通过控制层传达给客户端。
+
+3.【webbase】：定义web服务基类，非业务类的实现，如通用弹窗，图片处理，功能控制等。
+
+4.【kppos】:移动web网站视图层定义，如jsp定义视图UI
+
+5.【assets】:amaze UI组件，结合jsp语法构建前端画面。
+
+6.【index.jsp】:移动web主页。
